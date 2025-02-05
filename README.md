@@ -62,7 +62,7 @@ The app checks the availability of books across library, local bookstores, onlin
 	
 3)	Immersive – Feel the story with multisensory Music.
 
-**The future of Reading starts here! Let’s redefine reading and inspire a new generation of readers.  **
+**The future of Reading starts here! Let’s redefine reading and inspire a new generation of readers.**
 
 
 # Tech Stack:
