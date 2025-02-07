@@ -1,0 +1,163 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* HomePage */
+.homePage{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #04332D;
+  color: #FFEEC1;
+  height: 735px;
+}
+.title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 30px;
+  letter-spacing: 5px;
+}
+.homeimg{
+  padding-left: 650px;
+  padding-bottom: 20px;
+  width: 220px;
+  height: auto;
+}
+
+
+/* SignUpPage */
+.signup{
+  background-color: #0B8C7C;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: x-large;
+  color: #FFEEC1;
+  width: 160px;
+  height: 40px;
+  margin-left:690px ;
+  border-radius: 30px;
+}
+.signup:hover{
+  background-color: #FFEEC1;
+  color: #04332D;
+  font-family: inter;
+  font-size: xx-large;
+}
+.signupPage{
+  background-color: #04332D;
+  height: 735px;
+}
+.signupPage h1{
+  color: #FFEEC1;
+  text-align: center;
+  padding: 20px;
+  letter-spacing: 10px; 
+}
+.signupPage p{
+  text-align: center;
+  color: white;
+}
+.signupPage link{
+  color: #FFEEC1;
+}
+.signupPage input{
+  height: 30px;
+  width: 200px;
+  border-radius: 20px;
+  background-color: #FFEEC1;
+}
+.signupPage h2{
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+.signupPage label{
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+}
+.signupDetails{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.buttonSign{
+  width: 200px;
+  height: 39px;
+  color: #FFEEC1;
+  background-color: #0B8C7C;
+  font-size: larger;
+  border-radius: 20px;
+  border-color: #04332D;
+}
+.signupPage h2{
+  color: #FFEEC1;
+}
+.link_{
+  color: #FFEEC1;
+}
+
+
+/* LoginPage */
+.loginPage{
+  background-color: #04332D;
+  height: 735px;
+}
+
+.loginPage h2{
+  text-align: center;
+  color: #FFEEC1;
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+.loginPage p{
+  text-align: center;
+  color: white;
+}
+.loginPage button{
+  width: 200px;
+  height: 39px;
+  color: #FFEEC1;
+  background-color: #0B8C7C;
+  font-size: larger;
+  border-radius: 20px;
+  border-color: #04332D;
+}
+.login{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.loginPage label{
+  color: white;
+}
+.loginPage input{
+  height: 30px;
+  width: 200px;
+  border-radius: 20px;
+  background-color: #FFEEC1;
+}
+.loginPage h1{
+  color: #FFEEC1;
+  text-align: center;
+  padding: 20px;
+  letter-spacing: 10px; 
+}
+
+.mainHome{
+  background-color: #04332D;
+  height: 735px;
+}
+.Title{
+  text-align: center;
+  letter-spacing: 10px;
+  color: #FFEEC1;
+}
+.mainHome li{
+  color: #FFEEC1;
+}
