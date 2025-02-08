@@ -13,9 +13,9 @@ function Home() {
   return (
     <div className="homePage">
       <img src={homeLogo} className="homeimg"></img>
-      <h4 className="title">Reading meets wonder</h4>
+      <h4 className="title_">Reading meets wonder</h4>
       <nav className="options">
-        <Link className="signup" to="/signup">Read</Link>
+        <Link className="signup-button" to="/signup">Read</Link>
       </nav>
     </div>
   );
