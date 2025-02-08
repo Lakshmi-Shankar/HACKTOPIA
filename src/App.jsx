@@ -13,7 +13,7 @@ function Home() {
   return (
     <div className="homePage">
       <img src={homeLogo} className="homeimg"></img>
-      <h4 className="title_">Reading meets wonder</h4>
+      <h2 className="title_">Reading meets wonder</h2>
       <nav className="options">
         <Link className="signup-button" to="/signup">Read</Link>
       </nav>

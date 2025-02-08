@@ -1,6 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState } from "react";
 import "./App.css"; // Import the new CSS file for styling
+import { Link } from "react-router-dom";
 
 function BlindDate() {
   const [book, setBook] = useState(null);
@@ -93,7 +94,8 @@ function BlindDate() {
           <button className="enjoy-btn" onClick={() => alert("Enjoy your reading!")}>✔ Enjoy!</button>
         </div>
       )}
-      
+      <br /><br /><br />
+      <h4><Link to={"/homePage"} className="backButton">Back↩</Link></h4>
     </div>
   );
 }

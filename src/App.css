@@ -12,6 +12,19 @@ body {
   color: #FFEEC1;
 }
 
+.backButton{
+  text-decoration: none;
+  color: #000;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: larger;
+}
+
+
+.bookTitle{
+  color: #FFEEC1 !important;
+}
+
+
 /* 📌 HomePage */
 .homePage {
   text-align: center;
@@ -26,6 +39,12 @@ body {
   letter-spacing: 5px;
  
 }
+
+.title_{
+  padding: 20px;
+  font-size: small;
+}
+
 .title_b{
   display: flex;
   justify-content: center;
