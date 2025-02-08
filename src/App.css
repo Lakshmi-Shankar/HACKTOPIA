@@ -1,163 +1,235 @@
-*{
+/* Global Styles */
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
 }
 
-/* HomePage */
-.homePage{
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+/* Main Background */
+body {
   background-color: #04332D;
   color: #FFEEC1;
-  height: 735px;
 }
-.title{
+
+/* 📌 HomePage */
+.homePage {
+  text-align: center;
+  margin-top: 145px;
+}
+
+.title {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   padding-bottom: 30px;
   letter-spacing: 5px;
 }
-.homeimg{
-  padding-left: 650px;
-  padding-bottom: 20px;
+
+.homeimg {
+  display: block;
+  margin: 0 auto;
   width: 220px;
   height: auto;
 }
 
-
-/* SignUpPage */
-.signup{
-  background-color: #0B8C7C;
+/* 📌 Book Search */
+.book-search {
   text-align: center;
+  margin: 20px;
+  
+}
+
+.book-search input {
+  padding: 10px;
+  width: 60%;
+  margin-right: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.book-search button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #e6d848ca;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.book-search button:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+.book-results {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  margin-top: 20px;
+}
+
+.book-item {
+  width: 200px;
+  padding: 15px;
+  margin: 10px;
+  background: #0b8c7d9b;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.2);
+}
+
+.book-cover {
+  width: 128px;
+  height: 192px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+/* 📌 Sign Up Page */
+.signup {
+  display: block;
+  text-align: center;
+  font-size: large;
   text-decoration: none;
-  font-size: x-large;
   color: #FFEEC1;
   width: 160px;
   height: 40px;
-  margin-left:690px ;
+  background-color: #0B8C7C;
   border-radius: 30px;
+  margin: 20px auto;
+  line-height: 40px;
+  transition: 0.3s;
 }
-.signup:hover{
+
+.signup:hover {
   background-color: #FFEEC1;
   color: #04332D;
-  font-family: inter;
-  font-size: xx-large;
 }
-.signupPage{
+
+.signupPage {
   background-color: #04332D;
-  height: 735px;
-}
-.signupPage h1{
-  color: #FFEEC1;
+  min-height: 100vh;
+  padding: 40px 20px;
   text-align: center;
-  padding: 20px;
-  letter-spacing: 10px; 
-}
-.signupPage p{
-  text-align: center;
-  color: white;
-}
-.signupPage link{
-  color: #FFEEC1;
-}
-.signupPage input{
-  height: 30px;
-  width: 200px;
-  border-radius: 20px;
-  background-color: #FFEEC1;
-}
-.signupPage h2{
-  text-align: center;
-  padding-top: 60px;
-  padding-bottom: 50px;
-}
-.signupPage label{
-  color: white;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: medium;
-}
-.signupDetails{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-.buttonSign{
-  width: 200px;
-  height: 39px;
-  color: #FFEEC1;
-  background-color: #0B8C7C;
-  font-size: larger;
-  border-radius: 20px;
-  border-color: #04332D;
-}
-.signupPage h2{
-  color: #FFEEC1;
-}
-.link_{
-  color: #FFEEC1;
 }
 
-
-/* LoginPage */
-.loginPage{
-  background-color: #04332D;
-  height: 735px;
-}
-
-.loginPage h2{
-  text-align: center;
+.signupPage h1 {
   color: #FFEEC1;
-  padding-top: 60px;
-  padding-bottom: 50px;
-}
-.loginPage p{
-  text-align: center;
-  color: white;
-}
-.loginPage button{
-  width: 200px;
-  height: 39px;
-  color: #FFEEC1;
-  background-color: #0B8C7C;
-  font-size: larger;
-  border-radius: 20px;
-  border-color: #04332D;
-}
-.login{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-.loginPage label{
-  color: white;
-}
-.loginPage input{
-  height: 30px;
-  width: 200px;
-  border-radius: 20px;
-  background-color: #FFEEC1;
-}
-.loginPage h1{
-  color: #FFEEC1;
-  text-align: center;
-  padding: 20px;
-  letter-spacing: 10px; 
-}
-
-.mainHome{
-  background-color: #04332D;
-  height: 735px;
-}
-.Title{
-  text-align: center;
+  padding-bottom: 20px;
   letter-spacing: 10px;
-  color: #FFEEC1;
 }
-.mainHome li{
+
+.signupPage p {
+  color: white;
+}
+
+.signupDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signupPage input {
+  width: 250px;
+  height: 35px;
+  border-radius: 20px;
+  padding: 8px;
+  background-color: #FFEEC1;
+  border: none;
+  margin-bottom: 15px;
+}
+
+.buttonSign {
+  width: 250px;
+  height: 40px;
+  background-color: #0B8C7C;
   color: #FFEEC1;
+  font-size: larger;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.buttonSign:hover {
+  background-color: #FFEEC1;
+  color: #04332D;
+}
+
+/* 📌 Login Page */
+.loginPage {
+  background-color: #04332D;
+  min-height: 100vh;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.loginPage h1 {
+  color: #FFEEC1;
+  padding: 20px;
+  letter-spacing: 10px;
+}
+
+.loginPage p {
+  color: white;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loginPage input {
+  width: 250px;
+  height: 35px;
+  border-radius: 20px;
+  padding: 8px;
+  background-color: #FFEEC1;
+  border: none;
+  margin-bottom: 15px;
+}
+
+.loginPage button {
+  width: 250px;
+  height: 40px;
+  background-color: #0B8C7C;
+  color: #FFEEC1;
+  font-size: larger;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.loginPage button:hover {
+  background-color: #FFEEC1;
+  color: #04332D;
+}
+
+/* 📌 General Styles */
+.link_ {
+  color: #FFEEC1;
+  text-decoration: none;
+}
+
+.link_:hover {
+  text-decoration: underline;
+}
+
+/* 📌 Responsive Design */
+@media (max-width: 768px) {
+  .book-search input {
+    width: 80%;
+  }
+  
+  .signup, .buttonSign, .loginPage button {
+    width: 80%;
+  }
+
+  .signupPage input, .loginPage input {
+    width: 80%;
+  }
 }

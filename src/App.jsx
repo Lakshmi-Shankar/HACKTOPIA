@@ -4,6 +4,10 @@ import Signup from "./Signup";
 import HomePage from "./homePage";
 import homeLogo from "./assets/homeLogo.png";
 import "./App.css"
+import BlindDate from "./blindDate";
+import BookAni from "./bookAni";
+import AudioBook from "./audioBook";
+import Ava from "./availability";
 
 function Home() {
   return (
@@ -25,6 +29,10 @@ export default function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/homePage" element={<HomePage />} />
+        <Route path="/blindDate" element={<BlindDate />} />
+        <Route path="/bookAni" element={<BookAni />} />
+        <Route path="/audioBook" element={<AudioBook />} />
+        <Route path="/availability" element={<Ava />} />
       </Routes>
     </BrowserRouter>
   );
