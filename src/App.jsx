@@ -7,7 +7,7 @@ import "./App.css"
 import BlindDate from "./blindDate";
 import BookAni from "./bookAni";
 import AudioBook from "./audioBook";
-import Ava from "./availability";
+
 
 function Home() {
   return (
@@ -32,7 +32,6 @@ export default function App() {
         <Route path="/blindDate" element={<BlindDate />} />
         <Route path="/bookAni" element={<BookAni />} />
         <Route path="/audioBook" element={<AudioBook />} />
-        <Route path="/availability" element={<Ava />} />
       </Routes>
     </BrowserRouter>
   );
