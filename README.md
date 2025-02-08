@@ -69,7 +69,7 @@ The app checks the availability of books across library, local bookstores, onlin
 
 **Frontend : React**
 
-**API : PromptRepo**
+**API : Google Books API**
 
 **Database : MySQL**
 
